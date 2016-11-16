@@ -1,0 +1,83 @@
+@import url(//fonts.googleapis.com/css?family=Lato:700);
+
+body {
+  margin:0;
+  font-family:'Lato', sans-serif;
+  text-align:center;
+  color: #999;
+}
+
+a, a:visited {
+  text-decoration:none;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 16px 0 0 0;
+}
+
+.logout{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main-bg{
+  width: 100%;
+}
+
+.bg{
+  height: 300px;
+  max-width: 80%;
+  margin: auto;
+}
+
+.bg1{
+  background-image: url('../img/arbol.jpg');
+}
+
+.bg1 h3, .bg2 h3, .bg3 h3{
+  color: white;
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+}
+
+.bg1, .bg2, .bg3{
+  color: white;
+  font-size: 21px;
+  text-align: center;
+}
+
+.bg1 p, .bg2 p, .bg3 p{
+  padding: 1em;
+}
+
+.bg2{
+  background-image: url('../img/flores.jpg');
+}
+
+.bg3{
+  background-image: url('../img/muñecas.jpg');
+}
+
+.navbar{
+  margin-bottom: 0px !important;
+}
+
+.contacto, .tel{
+  width: 300px;
+  display: inline-block;
+  margin-bottom: 2.5em;
+}
+
+.jumbotron{
+  max-width: 80%;
+  margin: auto;
+}
+
+.jumbotron p{
+  padding: 1em;
+}
+
+footer h5{
+  padding: 1em 0;
+}
